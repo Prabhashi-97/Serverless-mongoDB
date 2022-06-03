@@ -1,0 +1,24 @@
+{
+  "name": "serverless-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless offline start --skipCacheInvalidation",
+    "deploy": "sls deploy -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-dotenv": "^1.0.0-beta.2",
+    "serverless-dotenv-plugin": "^3.12.2",
+    "serverless-offline": "^8.3.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "serverless-http": "^2.7.0",
+    "uuid": "^8.3.2"
+  }
+}
